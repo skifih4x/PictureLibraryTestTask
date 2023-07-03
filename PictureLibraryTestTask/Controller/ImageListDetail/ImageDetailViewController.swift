@@ -39,6 +39,7 @@ class ImageDetailViewController: UIViewController {
     // MARK: - Private methods
 
     private func setupUI() {
+        title = "Picture"
         view.backgroundColor = .white
 
         scrollView.delegate = self
@@ -116,6 +117,7 @@ class ImageDetailViewController: UIViewController {
     }
 
     // MARK: - Action @objc
+
     @objc private func backButtonTapped() {
         navigationController?.popViewController(animated: true)
     }

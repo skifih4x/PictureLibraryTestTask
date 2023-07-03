@@ -41,6 +41,7 @@ class ImageListViewController: UIViewController {
     // MARK: - private methods
 
     private func setupUI() {
+        title = "Picture Library"
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
